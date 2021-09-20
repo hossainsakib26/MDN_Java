@@ -23,3 +23,5 @@ document.addEventListener("DOMContentLoaded", function() {
 	}
 
 })
+
+// what is js done but need to study about async and defar
