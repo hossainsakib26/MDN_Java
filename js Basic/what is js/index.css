@@ -6,6 +6,8 @@ body {
 
 
 p {
+        display: flex;
+        flex-direction: column;
         text-align: center;
         border: 2px solid rgba(0,0,200,0.6);
         background: rgba(0,0,200,0.3);
@@ -13,6 +15,12 @@ p {
         box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
         border-radius: 10px;
         padding: 3px 10px;
-        display: inline-block;
         cursor: pointer;
-      }
+}
+
+button {
+        text-align: center;
+        border: 1px solid #ssdd22;
+        padding: 2%;
+        box-shadow: 2px 2px #ffff33;
+}
