@@ -9,20 +9,22 @@
 </head>
 <body>
 
-<div class="parent">
 
-	<div class="input-child">
-		<label>Input The Guess</label>
-		<input type="Number" name="numberText">
+	<div class="resultParas">
+		<p class="resultParas-item guesses"></p>
+  		<p class="resultParas-item lastResult"></p>
+  		<p class="resultParas-item lowOrHi"></p>
 	</div>
 
-	<button type="submit" name="submit">Submit Number</button>
-
-	
-
+<div class="input-section">
+	<label for="guessField" class="input-section-item">Enter a guess: </label>
+	<input type="text" id="guessField" class="input-section-item guessField">
+	<button type="submit" class="input-section-item guessSubmit">Submit Guess</button>
 </div>
 	
 
+
+	<script type="text/javascript" src="index.js"></script>
 
 </body>
 </html>
