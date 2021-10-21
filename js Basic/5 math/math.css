@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+canvas {
+    height: auto;
+    width: auto;
+}
+
+button {
+    padding: 1rem;
+    background-color: antiquewhite;
+}

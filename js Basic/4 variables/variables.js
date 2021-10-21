@@ -28,3 +28,5 @@ myNumber = 500; // much better — now this is a number
 typeof myNumber;
 
 const num = 4
+
+
